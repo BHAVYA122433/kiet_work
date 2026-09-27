@@ -1,3 +1,19 @@
+# macOS metadata
 .DS_Store
-**/ .DS_Store
+**/.DS_Store
+
+# Document & media files
 *.pdf
+*.docx
+*.jpeg
+*.pptx
+
+# macOS debug symbols
+*.dSYM/
+**/*.dSYM/
+
+# VS Code settings everywhere
+**/.vscode/
+
+# Binaries / output folders everywhere
+**/bin/

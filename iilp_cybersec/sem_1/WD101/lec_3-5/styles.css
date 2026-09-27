@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #95d30f;
+    
+}
+#site-header{
+    background : #05c62c;
+    color: white;
+    text-align:center;
+    padding:20px;
+}
+
+.section-title{
+    color:#f40c09;
+    font-size: 22px;
+    border-bottom:2px solid #1f3864;
+}
+input[type="email"]{
+    border:2px solid #1f3864;
+    padding : 4px;
+}
