@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #102a43;
+  background: #f3f6fa;
+}
+
+header {
+  background: #0f766e;
+  color: white;
+  padding: 22px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #d7fffa;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero {
+  padding: 40px 5%;
+}
+
+.hero h2 {
+  font-size: 42px;
+}
+
+button {
+  background: #0f766e;
+  color: white;
+  border: 0;
+  padding: 15px 22px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #115e59;
+}
+
+.stats {
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+article {
+  background: #f7faf9;
+  border: 2px solid #dce8e4;
+  border-radius: 18px;
+  padding: 28px;
+}
+
+article strong {
+  font-size: 34px;
+  color: #0f766e;
+}
+
+.tip {
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 28px;
+  border-radius: 18px;
+  background: #102a43;
+  color: white;
+}
+
+.tip h3 {
+  color: #8ff3d5;
+}
+
+.metric {
+  margin: 24px 0;
+}
+
+.metric-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.metric-label strong {
+  color: #0f766e;
+}
+
+.metric-bar {
+  height: 18px;
+  background: #e6ecea;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.metric-bar span {
+  display: block;
+  height: 100%;
+  background: #0f766e;
+  border-radius: 9px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 25px;
+  background: #102a43;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  header {
+    padding: 18px 20px;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  main {
+    padding: 25px 16px;
+  }
+
+  .hero h2 {
+    font-size: 34px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  article p {
+    grid-column: 1 / 3;
+  }
+}
