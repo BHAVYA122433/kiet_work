@@ -6,8 +6,10 @@
 *.pdf
 *.docx
 *.jpeg
+*.jpg
+*.png
 *.pptx
-
+*.mp4
 # macOS debug symbols
 *.dSYM/
 **/*.dSYM/
