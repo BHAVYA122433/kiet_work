@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(252, 229, 187);
+}
+
+h1{
+    background-color: rgb(209, 123, 15);
+    text-align: center;
+    text-transform: capitalize;}
+
+ #hobby{
+    color: rgb(209, 123, 15);
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ #quick_guide{
+    color: #D17B0F;
+    text-align: center;
+    text-decoration: underline;
+ }
+
+ #steps>li{
+    color: #5B507A;
+    text-transform: capitalize;
+    font-size:x-large;
+    font-weight: 500;
+    }
+
+ol>li>h3{
+     color: #9EADC8;
+    }
+    
+#ending{
+       color: #5B618A;
+    }
